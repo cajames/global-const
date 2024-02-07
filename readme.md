@@ -1,4 +1,3 @@
-
 ![Build](https://github.com/cajames/global-const/workflows/Build%20and%20Test/badge.svg)
 [![Coverage Status](https://coveralls.io/repos/github/cajames/global-const/badge.svg?branch=master)](https://coveralls.io/github/cajames/global-const?branch=master)
 
@@ -72,12 +71,14 @@ And example is when you have many packages, each using a "metrics" module. When 
 - `key`: The name of the value to retrieve or set.
 - `value`: An object/function to be globalised if it doesn't already exist.
 
-Returns the globalised value or the value passed in if not initialised.
+Returns the globalised value or stores the value passed in if not initialised, and returns it.
 
 ```ts
-const logger = getGlobalisedValue(
-	'myApp', 
-	'logger', 
-	new Logger()
-);
+const logger = getGlobalisedValue("myApp", "logger", new Logger());
 ```
+
+### `clearGlobalNamespace(namespace)`
+
+- `namespace`: A unique string identifier to prevent collisions when considering other packages using this module.
+
+This function is used for an application to clear out it's namespace.
