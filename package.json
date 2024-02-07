@@ -13,9 +13,9 @@
   "types": "dist/lib.d.ts",
   "license": "MIT",
   "author": "Chris A James <chris@webglowit.net>",
-  "homepage": "https://github.com/cajames/global-ref",
+  "homepage": "https://github.com/cajames/global-const",
   "bugs": {
-    "url": "https://github.com/cajames/global-ref/issues"
+    "url": "https://github.com/cajames/global-const/issues"
   },
   "files": [
     "dist/*"
