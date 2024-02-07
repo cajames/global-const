@@ -1,5 +1,4 @@
-![Build](https://github.com/cajames/global-const/workflows/Build%20and%20Test/badge.svg)
-[![Coverage Status](https://coveralls.io/repos/github/cajames/global-const/badge.svg?branch=master)](https://coveralls.io/github/cajames/global-const?branch=master)
+![Build](https://github.com/cajames/global-const/workflows/Build%20and%20Test/badge.svg)[![Coverage Status](https://coveralls.io/repos/github/cajames/global-const/badge.svg?branch=main)](https://coveralls.io/github/cajames/global-const?branch=main)
 
 > A lightweight utility to create global singletons (on browser and node)
 
