@@ -7,7 +7,12 @@
     "singleton",
     "global-state",
     "state",
-    "instance"
+    "instance",
+    "global function",
+    "global object",
+    "singleton function",
+    "singleton object",
+    "reference"
   ],
   "main": "dist/lib.js",
   "types": "dist/lib.d.ts",
