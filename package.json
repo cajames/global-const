@@ -1,0 +1,43 @@
+{
+  "name": "global-const",
+  "version": "0.0.0",
+  "description": "A lightweight utility to create global singletons (on browser and node)",
+  "keywords": [
+    "global",
+    "singleton",
+    "global-state",
+    "state",
+    "instance"
+  ],
+  "main": "dist/lib.js",
+  "types": "dist/lib.d.ts",
+  "license": "MIT",
+  "author": "Chris A James <chris@webglowit.net>",
+  "homepage": "https://github.com/cajames/global-ref",
+  "bugs": {
+    "url": "https://github.com/cajames/global-ref/issues"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "test": "yarn test:node && yarn test:browser",
+    "test:node": "jest --coverage",
+    "test:browser": "jest --config=./jest.config.browser.js --coverage",
+    "build": "rm -r -f ./dist &&  tsc",
+    "release": "yarn build && np"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.11",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "jest-environment-node": "^29.7.0",
+    "np": "^9.2.0",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.3.3"
+  },
+  "wallaby": {
+    "autoDetect": true
+  },
+  "resolutions": {}
+}
