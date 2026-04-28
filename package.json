@@ -33,16 +33,18 @@
     "release": "yarn build && np"
   },
   "devDependencies": {
-    "@types/jest": "^29.5.11",
-    "jest": "^29.7.0",
-    "jest-environment-jsdom": "^29.7.0",
-    "jest-environment-node": "^29.7.0",
-    "np": "^9.2.0",
-    "ts-jest": "^29.1.2",
-    "typescript": "^5.3.3"
+    "@jest/globals": "^30.3.0",
+    "jest": "^30.3.0",
+    "jest-environment-jsdom": "^30.3.0",
+    "jest-environment-node": "^30.3.0",
+    "np": "^11.2.0",
+    "ts-jest": "^29.4.9",
+    "typescript": "^6.0.3"
   },
   "wallaby": {
     "autoDetect": true
   },
-  "resolutions": {}
+  "resolutions": {
+    "tmp": "^0.2.4"
+  }
 }

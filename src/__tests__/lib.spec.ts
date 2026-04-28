@@ -1,3 +1,4 @@
+import { afterEach, describe, expect, it, jest } from "@jest/globals";
 import { getGlobalisedValue, clearGlobalNamespace } from "../lib";
 
 describe("lib", () => {
